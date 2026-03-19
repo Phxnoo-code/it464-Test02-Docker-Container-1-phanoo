@@ -2,7 +2,7 @@
 // 1. กำหนดค่าการเชื่อมต่อฐานข้อมูลโดยดึงชื่อจาก .env [5]
 $host = 'db-node'; // แก้ไขให้ตรงกับค่าทีอยู่ใน Docker Compose หรือ .env
 $user = 'root'; // แก้ไขให้ตรงกับค่าที่อยู่ใน Docker Compose หรือ .env
-$db   = 'it464_db'; // แก้ไขให้ตรงกับค่าที่อยู่ใน Docker Compose หรือ .env
+$db   = 'it464_db'; // แก้ไขให้ตรงกับค่าที่อยู่ใน Docker Compose หรือ .env 
 
 // 2. กฎเหล็กด้านความปลอดภัย: อ่านรหัสผ่านจาก Docker Secret [4, 7]
 $secret_path = '/run/secrets/db_root_pass';
